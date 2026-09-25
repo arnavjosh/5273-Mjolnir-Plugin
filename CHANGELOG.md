@@ -3,6 +3,9 @@
 # Changelog
 
 ## [Unreleased]
+- Made latest supported version include all future Android Studio releases
+
+## 0.0.2-beta
 
 ### Added
 - Libraries' setup tasks can now partially be automated
