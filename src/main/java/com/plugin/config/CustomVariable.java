@@ -6,7 +6,7 @@ import java.util.Set;
 
 /** Custom (nested) configuration variable used to represent nested objects. */
 public class CustomVariable extends ConfigVariable<Object> {
-    private Map<String, ConfigVariable> variables;
+    public Map<String, ConfigVariable> variables;
 
     public CustomVariable(Map<String, ConfigVariable> variables) {
         this.variables = variables;

@@ -35,5 +35,9 @@
                 description="Uses a template that can autofill files in a project.">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first" />
         </action>
+        <action id="com.plugin.FTCDashboardAction" class="com.plugin.FTCDashboardAction"
+                text="Syncs Code with FTC Dashboard Values">
+            <add-to-group group-id="FileExportGroup" anchor="first"/>
+        </action>
     </actions>
 </idea-plugin>
